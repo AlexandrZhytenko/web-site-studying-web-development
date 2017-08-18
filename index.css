@@ -1,41 +1,4 @@
-h1 {
-    text-align: center;
-}
-
 .img-size {
-    width: 100px; 
-    height: 100px; 
+    height: 100px;
+    width: 100px;
 }
-
-#python-block  {
-    text-align: right;
-
-}
-
-#python-block .left-block {
-    display: inline-block;
-
-}
-#python-block .right-block {
-    display: inline-block;
-    
-}
-
-#title-about-python {
-    text-align: right;
-}
-
-#title-about-python #title-python {
-    display: inline-block;
-}
-
-#title-about-python #about-python {
-    display: inline-block;
-    text-align: center;
-    width: 500px;
-}
-
-#links-python {
-    text-align: center;
-}
-

@@ -1,102 +1,86 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>studypythonweb</title>
-     <link href="index.css" rel="stylesheet" type="text/css"/>
+    <link href="index.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <p><a href="img/1_Page1_for_computer.png">ескіз сторінки</a></p>
-    <h1>Самоосвіта Python web-розробника</h1>
-    <div>
-        <div>
-            <ul class="main-menu">
-                <li><a href="courses.html">Курси</a></li>
-                <li><a href="trainee.html">Стажування</a></li>
-                <li><a href="blog.html">Блог</a></li>
-            </ul>
-        </div>
-        <div>
-            <img src="img/icon.png"/>
-        </div>
-    </div>
-    <div class="all-wrapped">
-    <div id="python-block" class="wrapper">
-        <div class="left-block">
-            <img class="img-size" src="img/python-icon.png" alt="python веб-розробка"/>
-        </div>
-        <div class="right-block">
-            <div id="title-about-python">
-                <div id="title-python">
-                    <h2>Python</h2>
-                </div>
-                <div id="about-python">
-                    <p>
-                Інтерпретована об'єктно-орієнтована мова програмування високого 
-                рівня з строгою динамічною типізацією.
-                    </p>
-                </div>
+    <header>
+        <h1>Самоосвіта Python web-розробника</h1>
+        <nav>
+            <a href="courses.html">Курси</a><br>
+            <a href="trainee.html">Стажування</a><br>
+            <a href="blog.html">Блог</a>
+        </nav>
+        <img src="img/icon.png" alt="заставка" />
+    </header>
+    <main>
+        <section>
+            <img class="img-size" src="img/python-icon.png" alt="python веб-розробка" />
+            <div id="title-python">
+                <h2>Python</h2>
             </div>
-            <div id="links-python">
+            <article>
+                Інтерпретована об'єктно-орієнтована мова програмування високого рівня з строгою динамічною типізацією.
+            </article>
+            <nav>
                 <a href="python-book.html">Книги</a>
                 <a href="python-video.html">Відео</a>
                 <a href="python-online.html">Онлайн</a>
                 <a href="python-help.html">Допомога</a>
-            </div>
-        </div>
-    </div>
-    <!--
-    <div id="htmlcss-block" class="wrapper">
-        <div class="left-block">
+            </nav>
+        </section>
+        <section>
             <img class="img-size" src="img/htmlcss-icon.jpg" alt="html/css картинка" />
-        </div>
-        <div class="right-block">
-            <h2>HTML/CSS</h2>
-            <p>
-                  Cтандартна мова розмітки веб-сторінок в Інтернеті та каскадні
-                  таблиці стилів.
-            </p>
-            <a href="htmlcss-book.html">Книги</a>
-            <a href="htmlcss-video.html">Відео</a>
-            <a href="htmlcss-online.html">Онлайн</a>
-            <a href="htmlcss-help.html">Допомога</a>
-        </div>
-    </div>
-    <div id="javascript-block" class="wrapper">
-        <div class="left-block">
-            <img class="img-size" src="img/javascript-icon.png" alt="javascript картинка"/>
-        </div>
-        <div class="right-block">
-            <h2>JavaScript</h2>
-            <p>
-                  Динамічна, об'єктно-орієнтована мова програмування, 
-                  найчастіше використовується як частина браузера. 
-            </p>
-            <a href="javascript-book.html">Книги</a>
-            <a href="javascript-video.html">Відео</a>
-            <a href="javascript-online.html">Онлайн</a>
-            <a href="javascript-help.html">Допомога</a>
-        </div>
-    </div>
-    <div id="framework-block" class="wrapper">
-        <div class="left-block">
-            <img class="img-size" src="img/framework-icon.jpg" alt="framework картинка"/>
-        </div>
-        <div class="right-block">
-            <h2>Frameworks</h2>
-            <p>
-                   Фреймворк —інфраструктура програмних рішень, 
-                   що полегшує розробку складних систем. 
-            </p>
-            <a href="framework-book.html">Книги</a>
-            <a href="framework-video.html">Відео</a>
-            <a href="framework-online.html">Онлайн</a>
-            <a href="framework-help.html">Допомога</a>
-        </div>
-    </div>
-    -->
-    </div>
+            <div id="title-htmlcss">
+                <h2>HTML/CSS</h2>
+            </div>
+            <article>
+                Cтандартна мова розмітки веб-сторінок в Інтернеті та каскадні таблиці стилів.
+            </article>
+            <nav>
+                <a href="htmlcss-book.html">Книги</a>
+                <a href="htmlcss-video.html">Відео</a>
+                <a href="htmlcss-online.html">Онлайн</a>
+                <a href="htmlcss-help.html">Допомога</a>
+            </nav>
+        </section>
+        <section>
+            <img class="img-size" src="img/javascript-icon.png" alt="javascript картинка" />
+            <div id="javaScript">
+                <h2>JavaScript</h2>
+            </div>
+            <article>
+                Динамічна, об'єктно-орієнтована мова програмування, найчастіше використовується як частина браузера.
+            </article>
+            <nav>
+                <a href="javascript-book.html">Книги</a>
+                <a href="javascript-video.html">Відео</a>
+                <a href="javascript-online.html">Онлайн</a>
+                <a href="javascript-help.html">Допомога</a>
+            </nav>
+        </section>
+        <section>
+            <img class="img-size" src="img/framework-icon.jpg" alt="framework картинка" />
+            <div id="frameworks">
+                <h2>Frameworks</h2>
+            </div>
+            <article>
+                Фреймворк —інфраструктура програмних рішень, що полегшує розробку складних систем.
+            </article>
+            <nav>
+                <a href="framework-book.html">Книги</a>
+                <a href="framework-video.html">Відео</a>
+                <a href="framework-online.html">Онлайн</a>
+                <a href="framework-help.html">Допомога</a>
+            </nav>
+        </section>
+    </main>
 </body>
+
 </html>
