@@ -6,81 +6,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>studypythonweb</title>
-    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="css/index-layout.css" rel="stylesheet" type="text/css" />
 </head>
-
-<body>
-    <header>
-        <h1>Самоосвіта Python web-розробника</h1>
-        <nav>
-            <a href="courses.html">Курси</a><br>
-            <a href="trainee.html">Стажування</a><br>
-            <a href="blog.html">Блог</a>
+<header>
+    <div class="lefttitle">
+        <p class="timetitle">Time: </p>
+        <div id='clock'>
+        </div>
+        <div class="forms">
+            <form action="https://formspree.io/zhytenko@ukr.net" method="POST">
+                <label for="name">Ваше Ім'я: </label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for='mail'>Ваш E-mail:</label>
+                <input type="email" id='mail' name="E-mail" required>
+                <br>
+                <br>
+                <textarea id="msg" name="user_message" placeholder="Ваші побажання щодо удосконалення сайту"></textarea>
+                <br>
+                <input type="submit" value="Надіслати">
+            </form>
+        </div>
+    </div>
+    <div class="righttitle">
+        <div class="title">
+            <h1>Самоосвіта Python web-розробника</h1>
+        </div>
+        <nav class="title-nav">
+                <a href="courses.html">Курси</a></br>
+                <a href="trainee.html">Стажування</a></br>
+                <a href="blog.html">Блог</a></br>
         </nav>
-        <img src="img/icon.png" alt="заставка" />
-    </header>
-    <main>
-        <section>
-            <img class="img-size" src="img/python-icon.png" alt="python веб-розробка" />
-            <div id="title-python">
-                <h2>Python</h2>
+        <img class="imgtitle" src="img/icon.png" alt="Заставка">
+    </div>
+</header>
+<div class="divider"></div>
+<main>
+    <section class="leftsection">
+        <div class="leftcolumn">
+            <p>Колонка на доопрацюванні</p>
+        </div>
+    </section>
+    <section class="rightsection">
+        <div class="python">
+            <div class="pythonimg">
+                <img class="img-size" src="img/python-icon.png" alt="python веб-розробка" />
             </div>
-            <article>
-                Інтерпретована об'єктно-орієнтована мова програмування високого рівня з строгою динамічною типізацією.
-            </article>
-            <nav>
-                <a href="python-book.html">Книги</a>
-                <a href="python-video.html">Відео</a>
-                <a href="python-online.html">Онлайн</a>
-                <a href="python-help.html">Допомога</a>
-            </nav>
-        </section>
-        <section>
-            <img class="img-size" src="img/htmlcss-icon.jpg" alt="html/css картинка" />
-            <div id="title-htmlcss">
-                <h2>HTML/CSS</h2>
+            <div class="pythonabout">
+                <div class="title-python">
+                    <h2>Python</h2>
+                </div>
+                <article class="pythondefinition">
+                    Інтерпретована об'єктно-орієнтована мова програмування високого рівня з строгою динамічною типізацією.
+                </article>
+                <nav class="pythonlinks">
+                    <a href="python-book.html">Книги</a>
+                    <a href="python-video.html">Відео</a>
+                    <a href="python-online.html">Онлайн</a>
+                    <a href="python-help.html">Допомога</a>
+                </nav>
             </div>
-            <article>
-                Cтандартна мова розмітки веб-сторінок в Інтернеті та каскадні таблиці стилів.
-            </article>
-            <nav>
-                <a href="htmlcss-book.html">Книги</a>
-                <a href="htmlcss-video.html">Відео</a>
-                <a href="htmlcss-online.html">Онлайн</a>
-                <a href="htmlcss-help.html">Допомога</a>
-            </nav>
-        </section>
-        <section>
-            <img class="img-size" src="img/javascript-icon.png" alt="javascript картинка" />
-            <div id="javaScript">
-                <h2>JavaScript</h2>
+        </div>
+        <div class="divider"></div>
+        <div class="html">
+            <div class="htmlimg">
+                <img class="img-size" src="img/htmlcss-icon.jpg" alt="html/css картинка" />
             </div>
-            <article>
-                Динамічна, об'єктно-орієнтована мова програмування, найчастіше використовується як частина браузера.
-            </article>
-            <nav>
-                <a href="javascript-book.html">Книги</a>
-                <a href="javascript-video.html">Відео</a>
-                <a href="javascript-online.html">Онлайн</a>
-                <a href="javascript-help.html">Допомога</a>
-            </nav>
-        </section>
-        <section>
-            <img class="img-size" src="img/framework-icon.jpg" alt="framework картинка" />
-            <div id="frameworks">
-                <h2>Frameworks</h2>
+            <div class="htmlabout">
+                <div class="title-html">
+                    <h2>HTML/CSS</h2>
+                </div>
+                <article class="htmldefinition">
+                    Cтандартна мова розмітки веб-сторінок в Інтернеті та каскадні таблиці стилів.
+                </article>
+                <nav class="htmllinks">
+                    <a href="htmlcss-book.html">Книги</a>
+                    <a href="htmlcss-video.html">Відео</a>
+                    <a href="htmlcss-online.html">Онлайн</a>
+                    <a href="htmlcss-help.html">Допомога</a>
+                </nav>
             </div>
-            <article>
-                Фреймворк —інфраструктура програмних рішень, що полегшує розробку складних систем.
-            </article>
-            <nav>
-                <a href="framework-book.html">Книги</a>
-                <a href="framework-video.html">Відео</a>
-                <a href="framework-online.html">Онлайн</a>
-                <a href="framework-help.html">Допомога</a>
-            </nav>
-        </section>
-    </main>
+        </div>
+        <div class="divider"></div>
+        <div class="javascript">
+            <div class="javascriptimg">
+                <img class="img-size" src="img/javascript-icon.png" alt="javascript картинка" />
+            </div>
+            <div class="javascriptabout">
+                <div class="title-javascript">
+                    <h2>JavaScript</h2>
+                </div>
+                <article class="javascriptdefinition">
+                    Динамічна, об'єктно-орієнтована мова програмування, найчастіше використовується як частина браузера.
+                </article>
+                <nav class="javascriptlinks">
+                    <a href="javascript-book.html">Книги</a>
+                    <a href="javascript-video.html">Відео</a>
+                    <a href="javascript-online.html">Онлайн</a>
+                    <a href="javascript-help.html">Допомога</a>
+                </nav>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="framework">
+            <div class="frameworktimg">
+                <img class="img-size" src="img/framework-icon.jpg" alt="framework картинка" />
+            </div>
+            <div class="frameworkabout">
+                <div class="title-framework">
+                    <h2>Frameworks</h2>
+                </div>
+                <article class="frameworkdefinition">
+                    Фреймворк — інфраструктура програмних рішень, що полегшує розробку складних систем.
+                </article>
+                <nav class="frameworklinks">
+                    <a href="framework-book.html">Книги</a>
+                    <a href="framework-video.html">Відео</a>
+                    <a href="framework-online.html">Онлайн</a>
+                    <a href="framework-help.html">Допомога</a>
+                </nav>
+            </div>
+        </div>
+        <div class="divider"></div>
+    </section>
+</main>
+<footer>
+    <div class="footer">
+        <div class="phone"><b>Телефон:</b> (097)-130-99-32</div>
+        <div class="email"><b>Електронна адреса: </b> zhytenko@ukr.net</div>
+        <b class="autorth-profile">Сторінка автора: </b>
+        <a href="https://www.facebook.com/profile.php?id=100007148710828" class="facebooklink">
+            <img class="socialimg" src="img/facebook-icon.png" alt="фейсбук">
+            </a>
+    </div>
+</footer>
+<script src="js/index.js"></script>
 </body>
 
 </html>

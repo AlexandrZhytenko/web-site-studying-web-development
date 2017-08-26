@@ -1,0 +1,152 @@
+header,
+div,
+nav,
+main,
+article,
+section,
+footer,
+img,
+p {
+    margin: 5px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.img-size {
+    width: 100px;
+    height: 100px;
+}
+
+.lefttitle,
+.leftsection {
+    float: left;
+    width: 30%;
+}
+
+.timetitle,
+#clock {
+    float: left;
+}
+
+.lefttitle {
+    margin: 30px;
+}
+
+.righttitle {
+    float: right;
+    width: 65%;
+}
+
+.divider,
+footer,
+.forms {
+    clear: both;
+}
+
+header,
+.righttitle,
+main,
+.python,
+.html,
+.javascript,
+.framework,
+.footer,
+.social {
+    overflow: auto;
+}
+
+.title-nav {
+    float: left;
+    width: 25%;
+    margin-top: 30px;
+}
+
+.imgtitle {
+    float: right;
+    width: 60%;
+    margin-right: 70px;
+}
+
+.title,
+.leftcolumn {
+    text-align: center;
+}
+
+#msg {
+    width: 256px;
+}
+
+.rightsection {
+    float: right;
+    width: 65%;
+}
+
+.pythonimg,
+.htmlimg,
+.javascriptimg,
+.frameworktimg {
+    float: left;
+}
+
+.pythonabout,
+.htmlabout,
+.javascriptabout,
+.frameworkabout {
+    float: right;
+    width: 80%;
+    margin-right: 30px;
+}
+
+.title-python,
+.title-html,
+.title-javascript,
+.title-framework {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.pythondefinition,
+.htmldefinition,
+.javascriptdefinition,
+.frameworkdefinition {
+    float: right;
+    width: 65%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pythonlinks,
+.htmllinks,
+.javascriptlinks,
+.frameworklinks {
+    clear: both;
+    text-align: center;
+}
+
+footer {
+	background: #7e7e7e;
+	color: #dbdbdb;
+	font-size: 11px;
+}
+
+.phone,
+.email,
+.social,
+b,
+.facebooklink {
+    float: left;
+}
+
+.socialimg{
+    width: 20px;
+    height: 20px;
+
+}
+
+.autorth-profile {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 360px) {
+    
+}
