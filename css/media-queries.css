@@ -1,0 +1,62 @@
+@media screen and (max-width: 980px) {
+    .lefttitle,
+    .leftsection,
+    .imgtitle,
+    .pythonimg,
+    .htmlimg,
+    .javascriptimg,
+    .frameworktimg,
+    b {
+        display: none;
+    }
+
+    .title-nav {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        clear: both;
+    }
+
+    a {
+        padding-right: 15px;
+    }
+    .righttitle,
+    .rightsection {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .title-python,
+    .title-html,
+    .title-javascript,
+    .title-framework {
+        clear: both;
+        margin: auto;
+        width: 100%;
+    }
+    .pythonabout,
+    .htmlabout,
+    .javascriptabout,
+    .frameworkabout {
+        clear: both;
+        width: 100%;
+        margin: 0;
+    }
+    .pythondefinition,
+    .htmldefinition,
+    .javascriptdefinition,
+    .frameworkdefinition {
+        clear: both;
+        text-align: center;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .img-size {
+        width: 30%;
+        padding: 0;
+        margin: 0;
+        height: 30%;
+    }
+}
