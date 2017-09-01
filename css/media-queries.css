@@ -1,14 +1,5 @@
 @media screen and (max-width: 980px) {
-    .lefttitle,
-    .leftsection,
-    .imgtitle,
-    .pythonimg,
-    .htmlimg,
-    .javascriptimg,
-    .frameworktimg,
-    b {
-        display: none;
-    }
+    
 
     .title-nav {
         display: block;

@@ -64,6 +64,11 @@ main,
     margin-right: 70px;
 }
 
+.imgsize {
+    width: 350px;
+    height: 90px;
+}
+
 .title,
 .leftcolumn {
     text-align: center;
