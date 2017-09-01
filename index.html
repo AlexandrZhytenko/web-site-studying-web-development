@@ -8,6 +8,7 @@
     <title>studypythonweb</title>
     <link href="css/index.css" rel="stylesheet" type="text/css" />
     <link href="css/media-queries.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <header>
     <div class="righttitle">
@@ -15,9 +16,15 @@
             <h1>Самоосвіта Python web-розробника</h1>
         </div>
         <nav class="title-nav">
-            <a href="courses.html">Курси</a>
-            <a href="trainee.html">Стажування</a>
-            <a href="blog.html">Блог</a>
+            <a href="courses.html" title="Інформація про курси, які проводяться у місті Львові">
+                <button type="button" class="btn btn-primary">Курси</button>
+            </a>
+            <a href="trainee.html" title="Інформація про стажування, які проводяться у місті Львові">
+                <button type="button" class="btn btn-primary">Стажування</button>
+            </a>
+            <a href="blog.html" title="Особистий блог автора">
+                <button type="button" class="btn btn-primary">Блог</button>
+                </a>
         </nav>
         <img class="imgtitle" src="img/icon.png" alt="Заставка">
     </div>
@@ -39,10 +46,20 @@
                     </h3>
                 </article>
                 <nav class="pythonlinks">
-                    <a href="python-book.html">Книги</a>
-                    <a href="python-video.html">Відео</a>
-                    <a href="python-online.html">Онлайн</a>
-                    <a href="python-help.html">Допомога</a>
+                    
+                    <a href="python-book.html">
+                        <button type="button" class="btn btn-secondary">Книги</button>
+                        </a>
+                    <a href="python-video.html">
+                         <button type="button" class="btn btn-secondary">Відео</button>
+                         </a>
+                    <a href="python-online.html">
+                        <button type="button" class="btn btn-secondary">Онлайн</button>
+                    </a>
+                    <a href="python-help.html">
+                        <button type="button" class="btn btn-secondary">Допомога</button>
+                    </a>
+                    
                 </nav>
             </div>
         </div>
@@ -61,10 +78,18 @@
                     </h3>
                 </article>
                 <nav class="htmllinks">
-                    <a href="htmlcss-book.html">Книги</a>
-                    <a href="htmlcss-video.html">Відео</a>
-                    <a href="htmlcss-online.html">Онлайн</a>
-                    <a href="htmlcss-help.html">Допомога</a>
+                    <a href="htmlcss-book.html">
+                        <button type="button" class="btn btn-secondary">Книги</button>
+                        </a>
+                    <a href="htmlcss-video.html">
+                        <button type="button" class="btn btn-secondary">Відео</button>
+                        </a>
+                    <a href="htmlcss-online.html">
+                        <button type="button" class="btn btn-secondary">Онлайн</button>
+                        </a>
+                    <a href="htmlcss-help.html">
+                        <button type="button" class="btn btn-secondary">Допомога</button>
+                        </a>
                 </nav>
             </div>
         </div>
@@ -83,10 +108,18 @@
                     </h3>
                 </article>
                 <nav class="javascriptlinks">
-                    <a href="javascript-book.html">Книги</a>
-                    <a href="javascript-video.html">Відео</a>
-                    <a href="javascript-online.html">Онлайн</a>
-                    <a href="javascript-help.html">Допомога</a>
+                    <a href="javascript-book.html">
+                        <button type="button" class="btn btn-secondary">Книги</button>
+                        </a>
+                    <a href="javascript-video.html">
+                        <button type="button" class="btn btn-secondary">Відео</button>
+                        </a>
+                    <a href="javascript-online.html">
+                        <button type="button" class="btn btn-secondary">Онлайн</button>
+                        </a>
+                    <a href="javascript-help.html">
+                        <button type="button" class="btn btn-secondary">Допомога</button>
+                        </a>
                 </nav>
             </div>
         </div>
@@ -101,14 +134,22 @@
                 </div>
                 <article class="frameworkdefinition">
                     <h3>
-                    Фреймворк — інфраструктура програмних рішень, що полегшує розробку складних систем.
+                        Фреймворк — інфраструктура програмних рішень, що полегшує розробку складних систем.
                     </h3>
                 </article>
                 <nav class="frameworklinks">
-                    <a href="framework-book.html">Книги</a>
-                    <a href="framework-video.html">Відео</a>
-                    <a href="framework-online.html">Онлайн</a>
-                    <a href="framework-help.html">Допомога</a>
+                    <a href="framework-book.html">
+                        <button type="button" class="btn btn-secondary">Книги</button>
+                        </a>
+                    <a href="framework-video.html">
+                        <button type="button" class="btn btn-secondary">Відео</button>
+                        </a>
+                    <a href="framework-online.html">
+                        <button type="button" class="btn btn-secondary">Онлайн</button>
+                        </a>
+                    <a href="framework-help.html">
+                        <button type="button" class="btn btn-secondary">Допомога</button>
+                        </a>
                 </nav>
             </div>
         </div>
@@ -127,7 +168,7 @@
                     <br>
                     <textarea id="msg" name="user_message" placeholder="Ваші побажання щодо удосконалення сайту"></textarea>
                     <br>
-                    <input type="submit" value="Надіслати">
+                    <input type="submit" value="Надіслати" class="btn btn-secondary"/>
                 </form>
             </div>
         </div>
@@ -148,6 +189,9 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="js/forms.js"></script>
 <script src="js/sendform.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 
 </html>
