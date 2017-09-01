@@ -10,25 +10,6 @@
     <link href="css/media-queries.css" rel="stylesheet" type="text/css">
 </head>
 <header>
-    <div class="lefttitle">
-        <p class="timetitle">Time: </p>
-        <div id='clock'>
-        </div>
-        <div class="forms">
-            <form action="https://formspree.io/zhytenko@ukr.net" method="POST">
-                <label for="name">Ваше Ім'я: </label>
-                <input type="text" id="name" name="name" required>
-                <br>
-                <label for='mail'>Ваш E-mail:</label>
-                <input type="email" id='mail' name="E-mail" required>
-                <br>
-                <br>
-                <textarea id="msg" name="user_message" placeholder="Ваші побажання щодо удосконалення сайту"></textarea>
-                <br>
-                <input type="submit" value="Надіслати">
-            </form>
-        </div>
-    </div>
     <div class="righttitle">
         <div class="title">
             <h1>Самоосвіта Python web-розробника</h1>
@@ -43,11 +24,6 @@
 </header>
 <div class="divider"></div>
 <main>
-    <section class="leftsection">
-        <div class="leftcolumn">
-            <p>Колонка на доопрацюванні</p>
-        </div>
-    </section>
     <section class="rightsection">
         <div class="python">
             <div class="pythonimg">
@@ -58,7 +34,9 @@
                     <h2>Python</h2>
                 </div>
                 <article class="pythondefinition">
-                    Інтерпретована об'єктно-орієнтована мова програмування високого рівня з строгою динамічною типізацією.
+                    <h3>
+                        Інтерпретована об'єктно-орієнтована мова програмування високого рівня з строгою динамічною типізацією.
+                    </h3>
                 </article>
                 <nav class="pythonlinks">
                     <a href="python-book.html">Книги</a>
@@ -78,7 +56,9 @@
                     <h2>HTML/CSS</h2>
                 </div>
                 <article class="htmldefinition">
-                    Cтандартна мова розмітки веб-сторінок в Інтернеті та каскадні таблиці стилів.
+                    <h3>
+                        Cтандартна мова розмітки веб-сторінок в Інтернеті та каскадні таблиці стилів.
+                    </h3>
                 </article>
                 <nav class="htmllinks">
                     <a href="htmlcss-book.html">Книги</a>
@@ -98,7 +78,9 @@
                     <h2>JavaScript</h2>
                 </div>
                 <article class="javascriptdefinition">
-                    Динамічна, об'єктно-орієнтована мова програмування, найчастіше використовується як частина браузера.
+                    <h3>
+                        Динамічна, об'єктно-орієнтована мова програмування, найчастіше використовується як частина браузера.
+                    </h3>
                 </article>
                 <nav class="javascriptlinks">
                     <a href="javascript-book.html">Книги</a>
@@ -118,7 +100,9 @@
                     <h2>Frameworks</h2>
                 </div>
                 <article class="frameworkdefinition">
+                    <h3>
                     Фреймворк — інфраструктура програмних рішень, що полегшує розробку складних систем.
+                    </h3>
                 </article>
                 <nav class="frameworklinks">
                     <a href="framework-book.html">Книги</a>
@@ -130,6 +114,24 @@
         </div>
         <div class="divider"></div>
     </section>
+    <div>
+        <div class="lefttitle">
+            <div class="forms">
+                <form action="https://formspree.io/zhytenko@ukr.net" method="POST">
+                    <label for="name">Ваше Ім'я: </label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for='mail'>Ваш E-mail:</label>
+                    <input type="email" id='mail' name="E-mail" required>
+                    <br>
+                    <br>
+                    <textarea id="msg" name="user_message" placeholder="Ваші побажання щодо удосконалення сайту"></textarea>
+                    <br>
+                    <input type="submit" value="Надіслати">
+                </form>
+            </div>
+        </div>
+    </div>
 </main>
 <footer>
     <div class="footer">
@@ -139,9 +141,13 @@
         <a href="https://www.facebook.com/profile.php?id=100007148710828" class="facebooklink">
             <img class="socialimg" src="img/facebook-icon.png" alt="фейсбук">
             </a>
+        <div id='clock'>
+        </div>
     </div>
 </footer>
-<script src="js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="js/forms.js"></script>
+<script src="js/sendform.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,8 @@
+body {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
 header,
 div,
 nav,
@@ -16,24 +21,13 @@ p {
     height: 100px;
 }
 
-.lefttitle,
-.leftsection {
-    float: left;
-    width: 30%;
-}
-
-.timetitle,
-#clock {
-    float: left;
-}
-
 .lefttitle {
     margin: 30px;
 }
 
 .righttitle {
-    float: right;
     width: 65%;
+    margin: 0 auto;
 }
 
 .divider,
@@ -76,8 +70,8 @@ main,
 }
 
 .rightsection {
-    float: right;
     width: 65%;
+    margin: 0 auto;
 }
 
 .pythonimg,
@@ -145,4 +139,8 @@ b,
 
 .autorth-profile {
     margin-top: 5px;
+}
+
+#clock {
+    float: right;
 }
