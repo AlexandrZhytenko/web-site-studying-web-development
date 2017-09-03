@@ -1,5 +1,18 @@
 @media screen and (max-width: 980px) {
-    
+
+    .pythonimg,
+    .htmlimg,
+    .javascriptimg,
+    .frameworktimg,
+    #clock,
+    .imgtitle,
+    b,
+    #python-help,
+    #htmlcss-help,
+    #javascript-help,
+    #framework-help {
+        display: none;
+    }
 
     .title-nav {
         display: block;
@@ -41,7 +54,7 @@
         clear: both;
         text-align: center;
         margin-top: 0;
-        width: 100%;
+        width: 95%;
     }
 
     .img-size {
@@ -49,5 +62,27 @@
         padding: 0;
         margin: 0;
         height: 30%;
+    }
+
+    .title {
+        padding: 5px;
+    }
+    footer {
+        margin-left: 0;
+    }
+
+    #pythondefinition,
+    #htmldefinition,
+    #javascriptdefinition,
+    #frameworkdefinition {
+        font-size: 18px;
+    }
+
+    .pythonlinks,
+    .htmllinks,
+    .javascriptlinks,
+    .frameworklinks {
+        padding-bottom: 15px;
+
     }
 }

@@ -1,0 +1,13 @@
+body {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#msg {
+    width: 320px;
+}

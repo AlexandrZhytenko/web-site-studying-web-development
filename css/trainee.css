@@ -1,0 +1,22 @@
+body {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#table {
+    margin-left: 100px;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#msg {
+    width: 320px;
+}

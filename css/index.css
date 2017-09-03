@@ -9,7 +9,6 @@ nav,
 main,
 article,
 section,
-footer,
 img,
 p {
     margin: 5px;
@@ -19,10 +18,6 @@ p {
 .img-size {
     width: 100px;
     height: 100px;
-}
-
-.lefttitle {
-    margin: 30px;
 }
 
 .righttitle {
@@ -75,7 +70,7 @@ main,
 }
 
 #msg {
-    width: 256px;
+    width: 320px;
 }
 
 .rightsection {
@@ -127,9 +122,12 @@ main,
 }
 
 footer {
-	background: #7e7e7e;
-	color: #dbdbdb;
-	font-size: 11px;
+    background: #7e7e7e;
+    color: #dbdbdb;
+    font-size: 11px;
+    max-width: 1350px;
+    margin-left: 120px;
+    clear:both;
 }
 
 .phone,
@@ -140,7 +138,7 @@ b,
     float: left;
 }
 
-.socialimg{
+.socialimg {
     width: 20px;
     height: 20px;
 
@@ -152,4 +150,17 @@ b,
 
 #clock {
     float: right;
+}
+
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#pythondefinition,
+#htmldefinition,
+#javascriptdefinition,
+#frameworkdefinition {
+    font-size: 24px;
 }

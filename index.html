@@ -17,8 +17,8 @@
         </div>
         <nav class="title-nav">
             <a class="btn btn-primary" href="courses.html" role="button" title="Інформація про курси, які проводяться у місті Львові">Курси</a>
-            <a class="btn btn-primary" href="courses.html" role="button" title="Інформація про стажування, які проводяться у місті Львові">Стажування</a>
-            <a class="btn btn-primary" href="courses.html" role="button" title="Особистий блог автора">Блог</a>
+            <a class="btn btn-primary" href="trainee.html" role="button" title="Інформація про стажування, які проводяться у місті Львові">Стажування</a>
+            <a class="btn btn-primary" href="blog.html" role="button" title="Особистий блог автора">Блог</a>
         </nav>
         <div class="imgtitle">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -62,15 +62,15 @@
                     <h2>Python</h2>
                 </div>
                 <article class="pythondefinition">
-                    <h3>
+                    <p id="pythondefinition">
                         Інтерпретована об'єктно-орієнтована мова програмування високого рівня з строгою динамічною типізацією.
-                    </h3>
+                    </p>
                 </article>
                 <nav class="pythonlinks">
                     <a class="btn btn-primary" href="python-book.html" role="button" title="Перелік літератури">Книги</a>
                     <a class="btn btn-primary" href="python-video.html" role="button" title="Корисне відео">Відео</a>
                     <a class="btn btn-primary" href="python-online.html" role="button" title="Онлайн ресурси">Онлайн</a>
-                    <a class="btn btn-primary" href="python-help.html" role="button" title="Поради">Допомога</a>
+                    <a id="python-help" class="btn btn-primary" href="python-help.html" role="button" title="Поради">Допомога</a>
                 </nav>
             </div>
         </div>
@@ -84,15 +84,15 @@
                     <h2>HTML/CSS</h2>
                 </div>
                 <article class="htmldefinition">
-                    <h3>
+                    <p id="htmldefinition">
                         Cтандартна мова розмітки веб-сторінок в Інтернеті та каскадні таблиці стилів.
-                    </h3>
+                    </p>
                 </article>
                 <nav class="htmllinks">
                     <a class="btn btn-primary" href="htmlcss-book.html" role="button" title="Перелік літератури">Книги</a>
                     <a class="btn btn-primary" href="htmlcss-video.html" role="button" title="Корисне відео">Відео</a>
                     <a class="btn btn-primary" href="htmlcss-online.html" role="button" title="Онлайн ресурси">Онлайн</a>
-                    <a class="btn btn-primary" href="htmlcss-help.html" role="button" title="Поради">Допомога</a>
+                    <a id="htmlcss-help" class="btn btn-primary" href="htmlcss-help.html" role="button" title="Поради">Допомога</a>
                 </nav>
             </div>
         </div>
@@ -106,15 +106,15 @@
                     <h2>JavaScript</h2>
                 </div>
                 <article class="javascriptdefinition">
-                    <h3>
+                    <p id="javascriptdefinition">
                         Динамічна, об'єктно-орієнтована мова програмування, найчастіше використовується як частина браузера.
-                    </h3>
+                    </p>
                 </article>
                 <nav class="javascriptlinks">
                     <a class="btn btn-primary" href="javascript-book.html" role="button" title="Перелік літератури">Книги</a>
                     <a class="btn btn-primary" href="javascript-video.html" role="button" title="Корисне відео">Відео</a>
                     <a class="btn btn-primary" href="javascript-online.html" role="button" title="Онлайн ресурси">Онлайн</a>
-                    <a class="btn btn-primary" href="javascript-help.html" role="button" title="Поради">Допомога</a>
+                    <a id="javascript-help" class="btn btn-primary" href="javascript-help.html" role="button" title="Поради">Допомога</a>
                 </nav>
             </div>
         </div>
@@ -128,21 +128,22 @@
                     <h2>Frameworks</h2>
                 </div>
                 <article class="frameworkdefinition">
-                    <h3>
+                    <p id="frameworkdefinition">
                         Фреймворк — інфраструктура програмних рішень, що полегшує розробку складних систем.
-                    </h3>
+                    </p>
                 </article>
                 <nav class="frameworklinks">
                     <a class="btn btn-primary" href="framework-book.html" role="button" title="Перелік літератури">Книги</a>
                     <a class="btn btn-primary" href="framework-video.html" role="button" title="Корисне відео">Відео</a>
                     <a class="btn btn-primary" href="framework-online.html" role="button" title="Онлайн ресурси">Онлайн</a>
-                    <a class="btn btn-primary" href="framework-help.html" role="button" title="Поради">Допомога</a>
+                    <a id="framework-help" class="btn btn-primary" href="framework-help.html" role="button" title="Поради">Допомога</a>
                 </nav>
             </div>
         </div>
         <div class="divider"></div>
     </section>
-    <div>
+    <br>
+    <div class="sendform">
         <div class="lefttitle">
             <div class="form">
                 <form id="form">
@@ -155,6 +156,7 @@
                     <br>
                     <textarea id="msg" name="msg" placeholder="Ваші побажання щодо удосконалення сайту"></textarea>
                     <br>
+                    <br>
                     <input type="submit" value="Надіслати" />
                 </form>
                 <div id="thanks">Thank you!</div>
@@ -166,20 +168,17 @@
     <div class="footer">
         <div class="phone"><b>Телефон:</b> (097)-130-99-32</div>
         <div class="email"><b>Електронна адреса: </b> zhytenko@ukr.net</div>
-        <b class="autorth-profile">Сторінка автора: </b>
-        <a href="https://www.facebook.com/profile.php?id=100007148710828" class="facebooklink">
+            <b class="autorth-profile">Сторінка автора: </b>
+            <a href="https://www.facebook.com/profile.php?id=100007148710828" class="facebooklink">
             <img class="socialimg" src="img/facebook-icon.png" alt="фейсбук">
             </a>
         <div id='clock'>
         </div>
     </div>
 </footer>
-
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
 <script src="js/forms.js" type="text/javascript"></script>
 <script src="js/index.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
