@@ -1,0 +1,41 @@
+    body {
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+
+    #article1,
+    #article2 {
+        float: left;
+        margin: 10px;
+    }
+
+    #article3 {
+        float: left;
+        margin: 10px;
+    }
+
+    #article4 {
+        float: left;
+        margin: 10px;
+    }
+
+    #article5,
+    #article6 {
+        float: left;
+        margin: 10px;
+    }
+
+    .gothrowpages {
+        margin: 10px;
+    }
+
+    .articles {
+        overflow: auto;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin: 0 auto;
+        width: 450px;
+    }
+    
